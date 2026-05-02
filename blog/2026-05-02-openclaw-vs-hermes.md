@@ -10,7 +10,7 @@ date: 2026-05-02
 tags: [AI, Agent, OpenClaw, Hermes, 技术对比]
 ---
 
-> 本文由 AI（MiniMax-M2.7）根据原文提炼总结，原文来自微信公众号"叶小钗"。
+> 本文由 AI（GLM-5.1）根据原文提炼总结，原文来自微信公众号"叶小钗"。
 
 原文链接：[《【万字】OpenClaw vs Hermes：一文深入拆解两大 Agent 框架》](https://mp.weixin.qq.com/s/wPuKUlajb6IaIL3uH7gSAA)
 

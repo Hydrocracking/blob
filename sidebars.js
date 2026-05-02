@@ -7,8 +7,8 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '学习笔记',
-      items: ['tech/notes', 'investment/notes'],
+      label: '技术笔记',
+      items: ['tech/notes'],
     },
   ],
 };

@@ -9,12 +9,6 @@ const config = {
   organizationName: 'Hydrocracking',
   projectName: 'blob',
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
-
-  i18n: {
-    defaultLocale: 'zh-Hans',
-    locales: ['zh-Hans'],
-  },
 
   presets: [
     [
@@ -27,9 +21,6 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          onInlineTags: 'ignore',
-          onInlineAuthors: 'ignore',
-          onUntruncatedBloggers: 'ignore',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -43,11 +34,6 @@ const config = {
     ({
       navbar: {
         title: 'Hydrocracking',
-        items: [
-          {
-            type: 'localeDropdown',
-          },
-        ],
       },
       footer: {
         style: 'dark',

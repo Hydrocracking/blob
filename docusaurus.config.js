@@ -1,14 +1,9 @@
 // @ts-check
-// Note: TypeScript annotations are allowed but not required
-
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Hydrocracking',
   tagline: '个人知识库',
-  favicon: 'img/favicon.ico',
   url: 'https://hydrocracking.github.io',
   baseUrl: '/blob/',
   organizationName: 'Hydrocracking',
@@ -32,10 +27,6 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
           onInlineTags: 'ignore',
           onInlineAuthors: 'ignore',
           onUntruncatedBloggers: 'ignore',
@@ -50,13 +41,8 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      image: 'img/social-card.jpg',
       navbar: {
         title: 'Hydrocracking',
-        logo: {
-          alt: 'Hydrocracking Logo',
-          src: 'img/logo.svg',
-        },
         items: [
           {
             type: 'localeDropdown',
@@ -65,11 +51,7 @@ const config = {
       },
       footer: {
         style: 'dark',
-        copyright: `© ${new Date().getFullYear()} Hydrocracking. Built with Docusaurus.`,
-      },
-      prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        copyright: `© ${new Date().getFullYear()} Hydrocracking`,
       },
     }),
 };
